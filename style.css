@@ -16,16 +16,17 @@
 
 .calulator-button-grid {
   display: grid;
-  grid-template-columns: repeat(4, 100px);
-  grid-template-rows: minmax(120px, auto) repeat(6,100px);
+  grid-template-columns: repeat(4, 10vw);
+  grid-template-rows: minmax(10vw, 10vh) repeat(6,10vh);
 background-color: blueviolet;
 }
 
 #display {
-  font-size: 5vh;
+  font-size: larger;
   align-self: center;
   border-style: groove;
   border-width: 5px;
+  padding: 1vh;
   background-color: aqua;
   grid-column: span 4;
   text-align: right;
